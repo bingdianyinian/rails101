@@ -1,8 +1,4 @@
-class Post < ApplicationRecord
-  belongs_to :user
-  belongs_to :group
-end
-
+class User < ApplicationRecord
   # Include default devise modules. Others available are:
 
   # :confirmable, :lockable, :timeoutable and :omniauthable
